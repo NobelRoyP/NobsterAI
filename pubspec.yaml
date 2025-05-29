@@ -1,0 +1,35 @@
+name: nobster_ai
+description: This is NobsterAI.
+publish_to: 'none'
+version: 1.2.3+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: 4.2.2
+  http: ^1.4.0
+  uuid: ^4.5.1
+  shared_preferences: ^2.0.6
+  url_launcher: ^6.1.5
+  flutter_markdown: ^0.7.7+1
+  doc_text_extractor: ^1.0.0
+  file_selector: ^1.0.3
+  syncfusion_flutter_pdf: ^29.2.5
+  archive: ^4.0.7
+  xml: ^6.1.0
+  sqflite: ^2.2.8+4
+  sqflite_common_ffi: ^2.2.1
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
